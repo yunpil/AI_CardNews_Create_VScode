@@ -4,4 +4,6 @@ export interface CardData {
   title: string;
   content: string;
   imageUrl: string; // 이미지 URL을 저장할 필드
+  backgroundColor?: string; // 배경색 (선택)
 }
+
